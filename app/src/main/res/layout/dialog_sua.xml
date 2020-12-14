@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="388dp"
+        android:layout_height="69dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:text="Cập nhập công việc"
+        android:textColor="#181717"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edittextTenCvEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="139dp"
+        android:ems="10"
+        android:hint="tên công việc"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/button_them_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="224dp"
+        android:text="Cập nhập" />
+
+    <Button
+        android:id="@+id/button_huy_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="224dp"
+        android:text="Hủy" />
+</RelativeLayout>
